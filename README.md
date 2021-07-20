@@ -24,7 +24,9 @@ aliddnsipv6_domain='xxx.com'
 ipv6s=`ip addr show ovs_eth0 | grep "2409.*global" | awk '{print $2}' | awk -F"/" '{print $1}'` || die "$ipv6"
 
 
-![2](https://user-images.githubusercontent.com/74590290/126312718-0b3ee9be-1ecd-4d47-8921-fc706a9aebb2.png)
+
 
 ![ip-addr](https://user-images.githubusercontent.com/74590290/126312766-3f342ef5-46a2-49ee-b14d-53f2a4858267.png)
+
+![2](https://user-images.githubusercontent.com/74590290/126312718-0b3ee9be-1ecd-4d47-8921-fc706a9aebb2.png)
 
